@@ -11,46 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55615d0-dcfc-4a82-93df-fc58c0dc3332" name="Default Changelist" comment="开始springboot-web项目的开发">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_4_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_popper_js_1_16_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/config/MyMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/entities/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/entities/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/Resource Bundle'login'/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/css/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/img/bootstrap-solid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/js/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/js/feather.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/js/jquery-3.2.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/asserts/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/component/MyLocalResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_en_us.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springsootweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springsootweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/config/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/config/MyMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/Resource Bundle'login'/login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -83,9 +64,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/i18n/Resource Bundle 'login'" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-project-gjs\springsootweb\src\main\resources\i18n\Resource Bundle 'login'" />
+      <recent name="D:\idea-project-gjs\springsootweb\src\main\resources\i18n\Resource Bundle'login'" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea-project-gjs\springsootweb\src\main\resources\i18n" />
+      <recent name="D:\idea-project-gjs\springsootweb\src\main\resources\i18n\Resource Bundle'login'" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringsootwebApplication">
+    <configuration name="i18n.Resource Bundle'login' in springsootweb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsootweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="i18n.Resource Bundle'login'.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="i18n.Resource Bundle'login'" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringsootwebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springsootweb" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiusen.springsootweb.SpringsootwebApplication" />
@@ -93,6 +99,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.i18n.Resource Bundle'login' in springsootweb" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,6 +116,9 @@
       <option name="presentableId" value="Default" />
       <updated>1598433406457</updated>
       <workItem from="1598433419123" duration="2873000" />
+      <workItem from="1598439420931" duration="3965000" />
+      <workItem from="1598491877481" duration="1315000" />
+      <workItem from="1598609737191" duration="3552000" />
     </task>
     <task id="LOCAL-00001" summary="开始springboot-web项目的开发">
       <created>1598433914091</created>
@@ -113,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598433914091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加模板文件、配置文件">
+      <created>1598439644265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598439644266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,52 +150,66 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="开始springboot-web项目的开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始springboot-web项目的开发" />
+    <MESSAGE value="添加模板文件、配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加模板文件、配置文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1598439398688">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1598614389954">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1598439398688" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1598439398688">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1598614389954" />
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598443014031">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1598439398688" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1598439398688">
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1598443014031" />
+    <state width="1237" height="200" key="GridCell.Tab.0.bottom" timestamp="1598615469627">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1598439398688" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1598439398688">
+    <state width="1237" height="200" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state width="1237" height="200" key="GridCell.Tab.0.center" timestamp="1598615469627">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1598439398688" />
-    <state width="1237" height="166" key="GridCell.Tab.1.bottom" timestamp="1598439398688">
+    <state width="1237" height="200" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state width="1237" height="200" key="GridCell.Tab.0.left" timestamp="1598615469627">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1598439398688" />
-    <state width="1237" height="166" key="GridCell.Tab.1.center" timestamp="1598439398688">
+    <state width="1237" height="200" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state width="1237" height="200" key="GridCell.Tab.0.right" timestamp="1598615469627">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1598439398688" />
-    <state width="1237" height="166" key="GridCell.Tab.1.left" timestamp="1598439398688">
+    <state width="1237" height="200" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state width="1237" height="200" key="GridCell.Tab.1.bottom" timestamp="1598615469627">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1598439398688" />
-    <state width="1237" height="166" key="GridCell.Tab.1.right" timestamp="1598439398688">
+    <state width="1237" height="200" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state width="1237" height="200" key="GridCell.Tab.1.center" timestamp="1598615469627">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1598439398688" />
+    <state width="1237" height="200" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state width="1237" height="200" key="GridCell.Tab.1.left" timestamp="1598615469627">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="200" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state width="1237" height="200" key="GridCell.Tab.1.right" timestamp="1598615469627">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="200" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1598611695561">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1598611695561" />
     <state x="471" y="214" key="VCS.EditChangelistDialog" timestamp="1598435796198">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="471" y="214" key="VCS.EditChangelistDialog/0.0.1280.689@0.0.1280.689" timestamp="1598435796198" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1598435634895">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1598439649880">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1598435634895" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1598439649880" />
     <state x="439" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598433587676">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
