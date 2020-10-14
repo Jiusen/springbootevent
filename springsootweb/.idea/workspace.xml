@@ -10,17 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f55615d0-dcfc-4a82-93df-fc58c0dc3332" name="Default Changelist" comment="开始springboot-web项目的开发">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/component/MyLocalResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_en_us.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/config/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiusen/springsootweb/config/MyMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/Resource Bundle'login'/login.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="f55615d0-dcfc-4a82-93df-fc58c0dc3332" name="Default Changelist" comment="开始springboot-web项目的开发" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +108,7 @@
       <workItem from="1598433419123" duration="2873000" />
       <workItem from="1598439420931" duration="3965000" />
       <workItem from="1598491877481" duration="1315000" />
-      <workItem from="1598609737191" duration="3552000" />
+      <workItem from="1598609737191" duration="3605000" />
     </task>
     <task id="LOCAL-00001" summary="开始springboot-web项目的开发">
       <created>1598433914091</created>
@@ -134,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598439644266</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="开始springboot-web项目的开发">
+      <created>1598615544524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598615544524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,9 +150,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="开始springboot-web项目的开发" />
     <MESSAGE value="添加模板文件、配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加模板文件、配置文件" />
+    <MESSAGE value="开始springboot-web项目的开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始springboot-web项目的开发" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1598614389954">
@@ -166,38 +163,38 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1598443014031" />
-    <state width="1237" height="200" key="GridCell.Tab.0.bottom" timestamp="1598615469627">
+    <state width="1237" height="199" key="GridCell.Tab.0.bottom" timestamp="1598615551903">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
-    <state width="1237" height="200" key="GridCell.Tab.0.center" timestamp="1598615469627">
+    <state width="1237" height="199" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1598615551903" />
+    <state width="1237" height="199" key="GridCell.Tab.0.center" timestamp="1598615551902">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
-    <state width="1237" height="200" key="GridCell.Tab.0.left" timestamp="1598615469627">
+    <state width="1237" height="199" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1598615551902" />
+    <state width="1237" height="199" key="GridCell.Tab.0.left" timestamp="1598615551902">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
-    <state width="1237" height="200" key="GridCell.Tab.0.right" timestamp="1598615469627">
+    <state width="1237" height="199" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1598615551902" />
+    <state width="1237" height="199" key="GridCell.Tab.0.right" timestamp="1598615551903">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
-    <state width="1237" height="200" key="GridCell.Tab.1.bottom" timestamp="1598615469627">
+    <state width="1237" height="199" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1598615551903" />
+    <state width="1237" height="199" key="GridCell.Tab.1.bottom" timestamp="1598615551903">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
-    <state width="1237" height="200" key="GridCell.Tab.1.center" timestamp="1598615469627">
+    <state width="1237" height="199" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1598615551903" />
+    <state width="1237" height="199" key="GridCell.Tab.1.center" timestamp="1598615551903">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
-    <state width="1237" height="200" key="GridCell.Tab.1.left" timestamp="1598615469627">
+    <state width="1237" height="199" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1598615551903" />
+    <state width="1237" height="199" key="GridCell.Tab.1.left" timestamp="1598615551903">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
-    <state width="1237" height="200" key="GridCell.Tab.1.right" timestamp="1598615469627">
+    <state width="1237" height="199" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1598615551903" />
+    <state width="1237" height="199" key="GridCell.Tab.1.right" timestamp="1598615551903">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="200" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1598615469627" />
+    <state width="1237" height="199" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1598615551903" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1598611695561">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
