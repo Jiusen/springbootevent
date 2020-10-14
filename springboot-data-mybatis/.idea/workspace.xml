@@ -10,12 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ca0a8b-b252-4803-9d3e-aa8e99f1f0ac" name="Default Changelist" comment="基础环境搭建（数据源druid的配置、表的创建）">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/config/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/mapper/DepartmentMapper.java" afterDir="false" />
+    <list default="true" id="21ca0a8b-b252-4803-9d3e-aa8e99f1f0ac" name="Default Changelist" comment="springboot-mybatis，注解版">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/SpringbootDataMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/SpringbootDataMybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot/controller/DeptController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -91,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602642502469</updated>
-      <workItem from="1602642507796" duration="9254000" />
+      <workItem from="1602642507796" duration="12804000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBoot整合mybatis">
       <created>1602642602709</created>
@@ -107,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602645446295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="springboot-mybatis，注解版">
+      <created>1602656221798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602656221798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SpringBoot整合mybatis" />
     <MESSAGE value="基础环境搭建（数据源druid的配置、表的创建）" />
-    <option name="LAST_COMMIT_MESSAGE" value="基础环境搭建（数据源druid的配置、表的创建）" />
+    <MESSAGE value="springboot-mybatis，注解版" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot-mybatis，注解版" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="29" key="#com.intellij.ide.util.MemberChooser" timestamp="1602647822964">
@@ -138,42 +150,42 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1602642971719" />
-    <state width="1237" height="88" key="GridCell.Tab.0.bottom" timestamp="1602655448224">
+    <state width="1237" height="146" key="GridCell.Tab.0.bottom" timestamp="1602659777663">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="88" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602655448224" />
-    <state width="1237" height="88" key="GridCell.Tab.0.center" timestamp="1602655448222">
+    <state width="1237" height="146" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602659777663" />
+    <state width="1237" height="146" key="GridCell.Tab.0.center" timestamp="1602659777662">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="88" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1602655448222" />
-    <state width="1237" height="88" key="GridCell.Tab.0.left" timestamp="1602655448222">
+    <state width="1237" height="146" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1602659777662" />
+    <state width="1237" height="146" key="GridCell.Tab.0.left" timestamp="1602659777661">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="88" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1602655448222" />
-    <state width="1237" height="88" key="GridCell.Tab.0.right" timestamp="1602655448223">
+    <state width="1237" height="146" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1602659777660" />
+    <state width="1237" height="146" key="GridCell.Tab.0.right" timestamp="1602659777663">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="88" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1602655448223" />
-    <state width="1237" height="88" key="GridCell.Tab.1.bottom" timestamp="1602655448226">
+    <state width="1237" height="146" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1602659777663" />
+    <state width="1237" height="146" key="GridCell.Tab.1.bottom" timestamp="1602659777664">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="88" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602655448226" />
-    <state width="1237" height="88" key="GridCell.Tab.1.center" timestamp="1602655448225">
+    <state width="1237" height="146" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1602659777664" />
+    <state width="1237" height="146" key="GridCell.Tab.1.center" timestamp="1602659777664">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="88" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1602655448225" />
-    <state width="1237" height="88" key="GridCell.Tab.1.left" timestamp="1602655448225">
+    <state width="1237" height="146" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1602659777664" />
+    <state width="1237" height="146" key="GridCell.Tab.1.left" timestamp="1602659777663">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="88" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1602655448225" />
-    <state width="1237" height="88" key="GridCell.Tab.1.right" timestamp="1602655448226">
+    <state width="1237" height="146" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1602659777663" />
+    <state width="1237" height="146" key="GridCell.Tab.1.right" timestamp="1602659777664">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="88" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1602655448226" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1602645450937">
+    <state width="1237" height="146" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1602659777664" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1602656235355">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1602645450937" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1602656235355" />
     <state x="420" y="244" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602643069640">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

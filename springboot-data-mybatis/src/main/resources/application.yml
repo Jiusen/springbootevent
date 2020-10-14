@@ -22,8 +22,11 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
-#第一次启动之后，赶紧注掉
-#    schema:
-#      - classpath:sql/department.sql
-#      - classpath:sql/employee.sql
     initialization-mode: always
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  #第一次启动之后，赶紧注掉
+  #    schema:
+  #      - classpath:sql/department.sql
+  #      - classpath:sql/employee.sql
